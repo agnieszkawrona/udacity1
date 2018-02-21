@@ -1,15 +1,12 @@
 /* add your CSS here */
 .allofit {
-	border-style: ridge;
-	border-width: 2px;
-	border-color: #d4d4f7;
+	border: 2px ridge #d4d4f7;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-spacing: 10px 10px;
 	border-radius: 10px;
 	width: 303px;
 	background-color: #d4d4f7;
-	font-family: 'Trebuchet MS';
-	font-size: 12px;
+	font: 12px "Trebuchet MS";
 }
 
 .fact {
@@ -18,10 +15,9 @@
 }
 
 h3 {
-	font-family: 'Impact';
+	font:  30px "Impact";
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 30px;
 	letter-spacing: 5px;
 	background-color: white;
 }
@@ -37,11 +33,10 @@ h3 {
 ul {
 	list-style: none;
 	word-spacing: 5px;
-	padding-left: 5px;
+	padding: 5px;
 }
 
 .pic {
-	border-style: solid;
-	border-width: 2px;
-	border-color: grey;
+	border: solid 2px grey;
 }
+.info {border: 2px solid white; padding: 5px;}
